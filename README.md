@@ -1,6 +1,7 @@
 # Hi, I'm Regis Tembachako 👋
 
 **Full stack engineer — PHP 8 / Symfony 7/Laravel · Adobe Commerce / Magento 2 · Flutter & Dart · Python**
+
 South Africa · open to relocation (UK Skilled Worker · AU 482 · NZ AEWV)
 
 8 years building and *operating* production systems — backend, mobile and data. I design the schema, write the domain services, build the web and mobile clients on top, and run the thing in production afterwards. I care most about how a system behaves when a dependency dies, not about the happy path.
@@ -21,10 +22,32 @@ A 14-service commerce and services platform I architect and operate solo. It's w
 | **Backend** | Symfony 7 modular monolith — 3,100+ classes, 530+ entities, 115 scheduled and CLI workers |
 | **Web** | 15 branded storefronts from one Twig component system and one theme layer |
 | **Mobile** | 14 branded Flutter apps from one codebase — 1,900+ Dart files, 595 screens, 29 locales |
-| **Stores** | Live on Google Play · App Store · Huawei AppGallery |
+| **Stores** | Published to Google Play, the Apple App Store and Huawei AppGallery — [listings below](#-live-in-the-stores) |
 | **Ops** | MariaDB, Redis, Docker, Nginx on a self-managed VPS fleet behind Cloudflare, CI/CD via GitHub Actions |
 
 Because there's no one else on it, I've had to be good at the parts that are usually somebody else's job: migrations, queue architecture, payments and reconciliation, webhook signing, health checks, circuit breakers, cost control.
+
+---
+
+## 📱 Live in the stores
+
+Fourteen branded apps build from the one Flutter codebase. These are the public listings — install any of them and you're running code I wrote end to end, against an API I also wrote.
+
+| App | What it does | Google Play | App Store |
+|---|---|:---:|:---:|
+| **Easy Mega** | The combined multi-service shell | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za) | — |
+| **Easy Menu** | Restaurant menus, table ordering, reservations | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.menu) | [Install](https://apps.apple.com/za/app/easy-menu-za/id6778792326) |
+| **Easy Move** | Removals and relocation quotes | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.move) | — |
+| **Easy Clean** | Cleaning services and bookings | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.clean) | — |
+| **Easy Rental** | Property rentals and leases | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.rental) | — |
+| **Easy Cover** | Insurance cover | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.cover) | — |
+| **Easy Handy** | Handyman jobs and bidding | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.handy) | — |
+| **Easy Book** | Appointment booking | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.book) | — |
+| **Easy Ad** | Classified ad board | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.ad) | — |
+| **Easy Inspect** | Property inspections | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.inspect) | — |
+| **Easy Job** | Vacancies and applications | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.vacancy) | — |
+
+Sibling builds also ship to **Huawei AppGallery**, and the remaining flavours are staged behind the same pipeline.
 
 ---
 
