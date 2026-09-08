@@ -22,32 +22,37 @@ A 14-service commerce and services platform I architect and operate solo. It's w
 | **Backend** | Symfony 7 modular monolith — 3,100+ classes, 530+ entities, 115 scheduled and CLI workers |
 | **Web** | 15 branded storefronts from one Twig component system and one theme layer |
 | **Mobile** | 14 branded Flutter apps from one codebase — 1,900+ Dart files, 595 screens, 29 locales |
-| **Stores** | Published to Google Play, the Apple App Store and Huawei AppGallery — [listings below](#-live-in-the-stores) |
+| **Stores** | Published to Google Play, the Apple App Store and Huawei AppGallery — [every live link below](#-live--the-services-you-can-actually-open) |
 | **Ops** | MariaDB, Redis, Docker, Nginx on a self-managed VPS fleet behind Cloudflare, CI/CD via GitHub Actions |
 
 Because there's no one else on it, I've had to be good at the parts that are usually somebody else's job: migrations, queue architecture, payments and reconciliation, webhook signing, health checks, circuit breakers, cost control.
 
 ---
 
-## 📱 Live in the stores
+## 📱 Live — the services you can actually open
 
-Fourteen branded apps build from the one Flutter codebase. These are the public listings — install any of them and you're running code I wrote end to end, against an API I also wrote.
+One Symfony deployment serves every storefront below; one Flutter codebase builds every app. Open any of them and you're running code I wrote end to end, against an API I also wrote.
 
-| App | What it does | Google Play | App Store |
-|---|---|:---:|:---:|
-| **Easy Mega** | The combined multi-service shell | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za) | — |
-| **Easy Menu** | Restaurant menus, table ordering, reservations | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.menu) | [Install](https://apps.apple.com/za/app/easy-menu-za/id6778792326) |
-| **Easy Move** | Removals and relocation quotes | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.move) | — |
-| **Easy Clean** | Cleaning services and bookings | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.clean) | — |
-| **Easy Rental** | Property rentals and leases | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.rental) | — |
-| **Easy Cover** | Insurance cover | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.cover) | — |
-| **Easy Handy** | Handyman jobs and bidding | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.handy) | — |
-| **Easy Book** | Appointment booking | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.book) | — |
-| **Easy Ad** | Classified ad board | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.ad) | — |
-| **Easy Inspect** | Property inspections | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.inspect) | — |
-| **Easy Job** | Vacancies and applications | [Install](https://play.google.com/store/apps/details?id=easyapplymove.app.za.vacancy) | — |
+**Hub: [easyapply.co.za](https://easyapply.co.za)** — the flagship, and the combined [Easy Mega](https://play.google.com/store/apps/details?id=easyapplymove.app.za) app that carries all services in one install.
 
-Sibling builds also ship to **Huawei AppGallery**, and the remaining flavours are staged behind the same pipeline.
+| Service | What it does | Web | Android | iOS | Huawei |
+|---|---|:---:|:---:|:---:|:---:|
+| **Easy Menu** | Restaurant menus, table ordering, reservations | [Site](https://cmenu.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.menu) | [App Store](https://apps.apple.com/za/app/easy-menu-za/id6778792326) | [AppGallery](https://appgallery.huawei.com/app/C118036279) |
+| **Easy Move** | Removals and relocation quotes | [Site](https://move.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.move) | — | — |
+| **Easy Clean** | Cleaning services and bookings | [Site](https://clean.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.clean) | — | — |
+| **Easy Rent** | Property rentals and leases | [Site](https://rent.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.rental) | — | — |
+| **Easy Handy** | Handyman jobs and bidding | [Site](https://handy.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.handy) | — | — |
+| **Easy Cover** | Insurance cover | [Site](https://insurance.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.cover) | — | — |
+| **Easy Book** | Appointment booking | [Site](https://book.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.book) | — | — |
+| **Easy Ad** | Classified ad board | [Site](https://ad.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.ad) | — | — |
+| **Easy Inspect** | Property inspections | [Site](https://inspect.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.inspect) | — | — |
+| **Easy Job** | Vacancies and applications | [Site](https://vacancy.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.vacancy) | — | — |
+| **Easy Loan** | Loan applications and offers | [Site](https://loan.easyapply.co.za/) | — | — | — |
+| **Clear Debt** | Debt consolidation and counselling | [Site](https://debt.easyapply.co.za/) | — | — | — |
+| **Easy Market** | Marketplace deals | [Site](https://deal.easyapply.co.za/) | — | — | — |
+| **Easy Profile** | Shared identity and profile | [Site](https://profile.easyapply.co.za/) | — | — | — |
+
+Every app has a sibling build in the AppGallery pipeline; the remaining store listings are staged behind the same branch-driven release workflow.
 
 ---
 
