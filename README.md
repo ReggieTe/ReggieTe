@@ -8,11 +8,62 @@ South Africa · Available for contract / consulting
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/registembachako)
 [![Email](https://img.shields.io/badge/tembachakoregis@gmail.com-24292f?style=flat-square&logo=gmail&logoColor=white)](mailto:tembachakoregis@gmail.com)
 
+
+
 ## Professional Summary
 
 Adobe Commerce Cloud Technical Lead with a DXP integration focus and 9+ years in production PHP and Adobe Commerce since 2018. I hold seven Adobe Commerce certifications, three at Adobe Certified Expert level (Developer, Front-End, Business Practitioner). Most recently I led the team supporting myCCBA for Coca-Cola Beverages Africa across SADC and East Africa, owning Commerce delivery, integrations and production stability across multiple countries.
 
 My strength is owning boundaries across the DXP: Commerce owns transactional truth (catalogue, price, stock, order), AEM owns content, CRM/IAM owns the customer, a CDP owns behaviour and SAP/ERP owns financial truth. I design the integrations between them (APIs, signed webhooks, events, retry and reconciliation) so there are never two truths. Platform depth: Adobe Commerce Cloud plus custom deployments on AWS. I also build and run my own multi-tenant commerce platform end to end, covering checkout, payments, wallet ledger, VAT, refunds and settlement, and I work AI-first with human review as the final gate.
+
+
+## Adobe commerce handbook
+```
+├── README.md                  ← you are here 
+adobe/
+├── README.md                 
+├── migration/
+│   ├── README.md              Which migration handbook to use
+│   ├── upscaling/             Existing platforms → Adobe DXP        
+│   └── downscaling/           Adobe DXP → WooCommerce / PrestaShop /
+│                              Shopify / custom platform            
+├── development/               Building and changing solutions on Adobe DXP 
+└── support/                   Running and supporting Adobe DXP            
+```
+
+### 1. Migration
+
+Migration is the first and most mature part of the library. It has two directions, each a complete seven-phase handbook.
+
+#### 1.1 Upscaling: existing platforms → Adobe DXP
+
+[`migration/upscaling/`](migration/upscaling/README.md) — *Enterprise Adobe DXP Migration Handbook v1.1*
+
+For organisations moving from custom portals, WooCommerce, PrestaShop, Shopify, existing Adobe Commerce or legacy CMS platforms into Adobe DXP.
+
+
+#### 1.2 Downscaling: Adobe DXP → WooCommerce, PrestaShop, Shopify or a custom platform
+
+[`migration/downscaling/`](migration/downscaling/README.md) — *Adobe DXP Downscale Playbook v1.0*
+
+For organisations leaving Adobe DXP for a simpler, lower-cost or better-fitting platform.
+
+Start with [`migration/README.md`](migration/README.md) if you are unsure which direction applies.
+
+---
+
+### 2. Development
+
+[`development/`](development/README.md) — *Enterprise Adobe DXP Development Handbook v1.0*
+
+An engineering lifecycle for designing, building, testing, releasing and handing over custom solutions on AEM, Adobe Commerce, AEP and the Experience Cloud modules. Built the same way as the migration handbooks.
+
+---
+
+### 3. Support
+
+[`support/`](support/README.md) — *Enterprise Adobe DXP Support and Operations Handbook v1.0*
+
 
 ## Certifications
 
