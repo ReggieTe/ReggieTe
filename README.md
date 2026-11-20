@@ -19,11 +19,15 @@ My strength is owning boundaries across the DXP: Commerce owns transactional tru
 
 ## Handbooks
 
-Consultant-led Adobe DXP handbooks for migration, development and operations, built around seven-phase lifecycles, approval gates and practical delivery resources.
+Consultant-led Adobe DXP handbooks covering migration, development, integrations, design, hosting, training and operations, with practical guidance and delivery resources.
 
 - **Migration** — Guides organisations moving to Adobe DXP from existing platforms, or moving from Adobe DXP to WooCommerce, PrestaShop, Shopify or a custom platform. [View the migration handbooks](https://github.com/ReggieTe/adobe-commerce/tree/main/migration)
 - **Development** — Covers the engineering lifecycle for designing, building, testing, releasing and handing over solutions across AEM, Adobe Commerce, AEP and related Experience Cloud products. [View the development handbook](https://github.com/ReggieTe/adobe-commerce/tree/main/development)
 - **Support and Operations** — Covers support service design and transition, live operations, continual improvement, platform lifecycle management and service handover. [View the support handbook](https://github.com/ReggieTe/adobe-commerce/tree/main/support)
+- **Integrations** — Guides native, vendor, middleware, custom API and file-based integrations between Adobe DXP and external business platforms. [View integrations handbook](https://github.com/ReggieTe/adobe-commerce/tree/main/integration)
+- **Design** — Helps select the Adobe Commerce storefront approach: native storefront, Hyvä, or a headless or decoupled frontend. [View design handbook](https://github.com/ReggieTe/adobe-commerce/tree/main/design)
+- **Hosting** — Helps choose hosting based on supported deployment models, performance, resilience, security, compliance, operations and cost. [View hosting handbook](https://github.com/ReggieTe/adobe-commerce/tree/main/hosting)
+- **Training** — Sets out training, certification and knowledge transfer to prepare client teams to manage and support Adobe DXP. [View training handbook](https://github.com/ReggieTe/adobe-commerce/tree/main/training)
 
 
 ## Certifications
@@ -31,19 +35,12 @@ Consultant-led Adobe DXP handbooks for migration, development and operations, bu
 *Seven Adobe Commerce certifications, three at Adobe Certified Expert level.*
 
 - **Adobe Certified Expert — Adobe Commerce Developer** — Adobe · Aug 2025 · [Verify](https://certification.adobe.com/credential/verify/8748de0f-846b-11f0-8ca0-42010a400fd3)  
-  Advanced platform architecture, development practices, customisation and implementation of Adobe Commerce solutions.
 - **Adobe Certified Expert — Adobe Commerce Business Practitioner** — Adobe · Jul 2025 · [Verify](https://certification.adobe.com/credential/verify/c0473940-699a-11f0-9b2a-42010a400fc3)  
-  Commerce business functionality, ecommerce operations, platform capabilities and business-facing configuration.
 - **Adobe Certified Expert — Adobe Commerce Front-End Developer** — Adobe · Jun 2025 · [Verify](https://certification.adobe.com/credential/verify/f3b7eb91-4e19-11f0-9b2a-42010a400fc3)  
-  Themes, layouts, UI components and front-end customisation on Adobe Commerce.
 - **Professional Developer — Adobe Commerce (AD0-E717)** — SwiftOtter · Aug 2024 · [Verify](https://www.credential.net/945e91da-c797-4912-9a11-6706f298be0b#acc.3rSEKjB7)  
-  Adobe Commerce development practices and platform engineering.
 - **Adobe Certified Professional — Adobe Commerce Developer** — Adobe · Jul 2024 · [Verify](https://certification.adobe.com/credential/verify/8f96fe8b-1f1c-466e-ba86-c0c7718c1aeb)  
-  Adobe Commerce development and implementation.
 - **Adobe Certified Professional — Adobe Commerce Business Practitioner** — Adobe · May 2024 · [Verify](https://certification.adobe.com/credential/verify/cdf41e55-b05b-4738-9a9e-7a19b30cc5ed)  
-  Adobe Commerce business functionality and ecommerce platform operations.
 - **Adobe Certified Professional — Adobe Commerce Front-End Developer** — Adobe · Apr 2024 · [Verify](https://certification.adobe.com/credential/verify/f76ace19-aa4c-4811-8db7-68191429a635)  
-  Adobe Commerce front-end implementation and platform customisation.
 
 ## Professional Experience
 
