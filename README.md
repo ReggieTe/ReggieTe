@@ -1,195 +1,115 @@
 # Hi, I'm Regis Tembachako 👋
 
-**Full stack engineer — PHP 8 / Symfony 7/Laravel · Adobe Commerce / Magento 2 · Flutter & Dart · Python**
+**Adobe Commerce Cloud Technical Lead · eCommerce Consultant · DXP Integration · 7 Adobe Certified (3 Expert)**
 
-South Africa · open to relocation (UK Skilled Worker · AU 482 · NZ AEWV)
-
-8 years building and *operating* production systems — backend, mobile and data. I design the schema, write the domain services, build the web and mobile clients on top, and run the thing in production afterwards. I care most about how a system behaves when a dependency dies, not about the happy path.
-
+South Africa · Available for contract / consulting  
 [![Website](https://img.shields.io/badge/rtembachako.com-1f6feb?style=flat-square&logo=googlechrome&logoColor=white)](https://rtembachako.com)
 [![EasyApply](https://img.shields.io/badge/easyapply.co.za-0b7285?style=flat-square&logo=googlechrome&logoColor=white)](https://easyapply.co.za)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/registembachako)
 [![Email](https://img.shields.io/badge/tembachakoregis@gmail.com-24292f?style=flat-square&logo=gmail&logoColor=white)](mailto:tembachakoregis@gmail.com)
 
----
+## Professional Summary
 
-## 🚀 What I'm building — EasyApply
+Adobe Commerce Cloud Technical Lead with a DXP integration focus and 9+ years in production PHP and Adobe Commerce since 2018. I hold seven Adobe Commerce certifications, three at Adobe Certified Expert level (Developer, Front-End, Business Practitioner). Most recently I led the team supporting myCCBA for Coca-Cola Beverages Africa across SADC and East Africa, owning Commerce delivery, integrations and production stability across multiple countries.
 
-A 14-service commerce and services platform I architect and operate solo. It's where most of the work below actually runs.
+My strength is owning boundaries across the DXP: Commerce owns transactional truth (catalogue, price, stock, order), AEM owns content, CRM/IAM owns the customer, a CDP owns behaviour and SAP/ERP owns financial truth. I design the integrations between them (APIs, signed webhooks, events, retry and reconciliation) so there are never two truths. Platform depth: Adobe Commerce Cloud plus custom deployments on AWS. I also build and run my own multi-tenant commerce platform end to end, covering checkout, payments, wallet ledger, VAT, refunds and settlement, and I work AI-first with human review as the final gate.
 
-| | |
-|---|---|
-| **Backend** | Symfony 7 modular monolith — 3,100+ classes, 530+ entities, 115 scheduled and CLI workers |
-| **Web** | 15 branded storefronts from one Twig component system and one theme layer |
-| **Mobile** | 14 branded Flutter apps from one codebase — 1,900+ Dart files, 595 screens, 29 locales |
-| **Stores** | Published to Google Play, the Apple App Store and Huawei AppGallery — [every live link below](#-live--the-services-you-can-actually-open) |
-| **Ops** | MariaDB, Redis, Docker, Nginx on a self-managed VPS fleet behind Cloudflare, CI/CD via GitHub Actions |
+## Certifications
 
-Because there's no one else on it, I've had to be good at the parts that are usually somebody else's job: migrations, queue architecture, payments and reconciliation, webhook signing, health checks, circuit breakers, cost control.
+*Seven Adobe Commerce certifications, three at Adobe Certified Expert level.*
 
----
+- **Adobe Certified Expert — Adobe Commerce Developer** — Adobe · Aug 2025 · [Verify](https://certification.adobe.com/credential/verify/8748de0f-846b-11f0-8ca0-42010a400fd3)  
+  Advanced platform architecture, development practices, customisation and implementation of Adobe Commerce solutions.
+- **Adobe Certified Expert — Adobe Commerce Business Practitioner** — Adobe · Jul 2025 · [Verify](https://certification.adobe.com/credential/verify/c0473940-699a-11f0-9b2a-42010a400fc3)  
+  Commerce business functionality, ecommerce operations, platform capabilities and business-facing configuration.
+- **Adobe Certified Expert — Adobe Commerce Front-End Developer** — Adobe · Jun 2025 · [Verify](https://certification.adobe.com/credential/verify/f3b7eb91-4e19-11f0-9b2a-42010a400fc3)  
+  Themes, layouts, UI components and front-end customisation on Adobe Commerce.
+- **Professional Developer — Adobe Commerce (AD0-E717)** — SwiftOtter · Aug 2024 · [Verify](https://www.credential.net/945e91da-c797-4912-9a11-6706f298be0b#acc.3rSEKjB7)  
+  Adobe Commerce development practices and platform engineering.
+- **Adobe Certified Professional — Adobe Commerce Developer** — Adobe · Jul 2024 · [Verify](https://certification.adobe.com/credential/verify/8f96fe8b-1f1c-466e-ba86-c0c7718c1aeb)  
+  Adobe Commerce development and implementation.
+- **Adobe Certified Professional — Adobe Commerce Business Practitioner** — Adobe · May 2024 · [Verify](https://certification.adobe.com/credential/verify/cdf41e55-b05b-4738-9a9e-7a19b30cc5ed)  
+  Adobe Commerce business functionality and ecommerce platform operations.
+- **Adobe Certified Professional — Adobe Commerce Front-End Developer** — Adobe · Apr 2024 · [Verify](https://certification.adobe.com/credential/verify/f76ace19-aa4c-4811-8db7-68191429a635)  
+  Adobe Commerce front-end implementation and platform customisation.
 
-## 📱 Live — the services you can actually open
+## Professional Experience
 
-One Symfony deployment serves every storefront below; one Flutter codebase builds every app. Open any of them and you're running code I wrote end to end, against an API I also wrote.
+### Senior Team Lead / DXP Implementation Technical Lead
+**Apr 2025 – Mar 2026** · Xiquel Group (Client: myCCBA) · South Africa · Remote contract  
+**Stack:** Adobe Commerce Cloud, ECE-Tools, Fastly, New Relic, PHP, MySQL, Redis, Git
 
-**Hub: [easyapply.co.za](https://easyapply.co.za)** — the flagship, and the combined [Easy Mega](https://play.google.com/store/apps/details?id=easyapplymove.app.za) app that carries all services in one install.
+- Led technical delivery for myCCBA (Coca-Cola Beverages Africa) across multiple SADC and East Africa countries: catalogue, pricing, B2B/B2C authentication, checkout and order flows on Adobe Commerce.
+- Owned integration boundaries: defined what Commerce owns versus SAP/ERP, CRM and content systems, and designed API and webhook integrations with signing, retry, idempotency and reconciliation so orders, customers and prices never drift.
+- Owned Cloud delivery and go-live: multi-environment deployments, configuration parity between Staging and Production, Fastly cache invalidation, New Relic observability, webhook URL audits and rollback plans.
+- Ran peer code review as the team's quality gate, keeping every change upgrade-safe through plugins, observers and service contracts, never core edits.
+- Translated business requirements into maintainable DXP solutions and owned production troubleshooting across application, integration and infrastructure layers.
 
-| Service | What it does | Web | Android | iOS | Huawei |
-|---|---|:---:|:---:|:---:|:---:|
-| **Easy Menu** | Restaurant menus, table ordering, reservations | [Site](https://cmenu.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.menu) | [App Store](https://apps.apple.com/za/app/easy-menu-za/id6778792326) | [AppGallery](https://appgallery.huawei.com/app/C118036279) |
-| **Easy Move** | Removals and relocation quotes | [Site](https://move.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.move) | — | — |
-| **Easy Clean** | Cleaning services and bookings | [Site](https://clean.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.clean) | — | — |
-| **Easy Rent** | Property rentals and leases | [Site](https://rent.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.rental) | — | — |
-| **Easy Handy** | Handyman jobs and bidding | [Site](https://handy.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.handy) | — | — |
-| **Easy Cover** | Insurance cover | [Site](https://insurance.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.cover) | — | — |
-| **Easy Book** | Appointment booking | [Site](https://book.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.book) | — | — |
-| **Easy Ad** | Classified ad board | [Site](https://ad.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.ad) | — | — |
-| **Easy Inspect** | Property inspections | [Site](https://inspect.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.inspect) | — | — |
-| **Easy Job** | Vacancies and applications | [Site](https://vacancy.easyapply.co.za/) | [Play](https://play.google.com/store/apps/details?id=easyapplymove.app.za.vacancy) | — | — |
-| **Easy Loan** | Loan applications and offers | [Site](https://loan.easyapply.co.za/) | — | — | — |
-| **Clear Debt** | Debt consolidation and counselling | [Site](https://debt.easyapply.co.za/) | — | — | — |
-| **Easy Market** | Marketplace deals | [Site](https://deal.easyapply.co.za/) | — | — | — |
-| **Easy Profile** | Shared identity and profile | [Site](https://profile.easyapply.co.za/) | — | — | — |
+### Senior Adobe Commerce Developer
+**2024 – 2025** · ECommerce Africa  
+**Stack:** Magento 2, PHP, MySQL, Redis, Varnish, JavaScript, Knockout, Git
 
-Every app has a sibling build in the AppGallery pipeline; the remaining store listings are staged behind the same branch-driven release workflow.
+- Developed and maintained Magento 2 storefronts for clients: custom modules, admin grids and forms, and multi-store configuration.
+- Built integrations with ERP, payment and shipping systems through APIs, and tuned performance with Redis and Varnish.
+- Diagnosed production issues across application, integration and infrastructure layers, with code review and QA before release.
 
----
+### Senior PHP Developer
+**Aug 2023 – Jan 2024** · Platform45 (Client: Primedia) · Cape Town, ZA
 
-## 🧱 Selected engineering work
+- Migrated a legacy PHP codebase to Symfony/Laravel, enforced SOLID and PSR standards in review, and hardened the platform against the OWASP Top 10, with zero post-deployment security incidents.
 
-<details open>
-<summary><b>Platform architecture — 14 services, one codebase, one deployment</b></summary>
+### Senior Adobe Commerce Developer
+**Jan 2022 – Sep 2022 · Part-time** · Vectra Business Technologies · Cape Town, ZA
 
-- Modular monolith carrying 14 distinct product verticals with **shared domain code** rather than 14 near-copies — one billing rail, one payment router, one notification layer, one moderation path.
-- Extension is a matter of adding a class: interfaces plus DI auto-tagging mean a new health check, automation capability or payment provider is one implementation and one service definition — never an edited switch.
-- Business rules live in domain services consumed by both the web front end and the mobile API, so a calculation can't drift between clients — a rule I enforce in review *because it had already drifted once*.
-- 115 scheduled workers for billing, settlement, reminders, reconciliation and indexing, with a run log that makes a job which silently did nothing diagnosable rather than invisible.
+- Built bespoke Adobe Commerce/Magento 2 modules and third-party ERP/CRM integrations for B2C clients, and led technical design reviews and impact assessments that prevented costly architectural regressions.
 
-</details>
+### Senior Open-Source Developer
+**Jan 2022 – Jun 2023** · Skhomo Technologies (Client: Western Cape Government) · Cape Town, ZA
 
-<details>
-<summary><b>Correctness where it costs money — payments, refunds and settlement</b></summary>
+- Cut page load times by up to 35% through query optimisation, indexing and server-side caching on citizen-facing government applications.
 
-- The full money path: checkout across several payment providers, an internal wallet ledger, commission splits, release of held funds to the merchant on fulfilment, and refunds — automatic where the provider supports it, queued for manual handling where it doesn't, **never silently dropped**.
-- One invoice and receipt service rendering HTML and PDF and emailing asynchronously, wired into every payment path instead of reimplemented per flow. Recurring merchant fees ride the same rail, so there's a single place where an amount owed becomes a document.
-- Fixed a real gap where funds for delivered orders stayed platform-side because nothing released them, and a credit-consumption bug spending future bookings against today's bill.
-- Multi-currency resolved per country at persist time after an audit found one currency being stamped onto every market.
-- Merchant-facing detail that decides whether commerce software is usable: per-venue payment methods and credentials with a fallback chain, VAT-inclusive pricing as a per-merchant setting, split bills settled by several people from their own devices.
+### Adobe Commerce Developer
+**Mar 2018 – Mar 2021** · SQLI SA · Cape Town, ZA · Including a first year as PHP Support Engineer  
+**Stack:** Adobe Commerce/Magento 2, PHP, MySQL, Redis, Varnish, AWS, WooCommerce, JavaScript, Knockout, LESS, Git
 
-</details>
+- Developed and maintained enterprise Magento 2 storefronts with multi-store and multi-website configuration: custom modules, EAV attributes, admin grids and forms.
+- Built integrations with ERP, payment and shipping systems through APIs, and tuned performance with Redis for cache and sessions and Varnish as the full-page cache, alongside indexer and cron hygiene.
+- Delivered custom AWS deployments (EC2, RDS, S3, CloudFront), including WooCommerce.
+- Diagnosed production issues across application, integration and infrastructure layers; worked in Agile sprints with code review and QA, and mentored junior developers.
 
-<details>
-<summary><b>Mobile — 14 apps, three stores, one codebase</b></summary>
+**Earlier roles (2016–2021):** Flutter, PHP and Web Developer (Tafmug / Dhahiri, SHEQ24, SA Education Directory)
 
-- Gradle product flavours on a single `service` dimension: each app gets its own application id, name, icons, splash and feature set — instead of 14 near-copies that would have drifted within a release.
-- **Branch-driven releases**: pushing `release/android/<flavour>` is the only input that selects what ships. Three Fastlane lanes (Play Internal Testing, TestFlight, AppGallery); production is a manually dispatched workflow bound to a per-flavour GitHub Environment with required reviewers, at a 10% staged rollout.
-- Store policy encoded rather than remembered: the loans app is stripped from the AppGallery build where financial-services content is barred by review rule 1.14, and that build regenerates its manifest to drop the `REQUEST_INSTALL_PACKAGES` permission Play requires be removed — one codebase satisfying two contradictory review rules.
-- **Offline-first** sqflite layer behind a typed table/model abstraction with 20 domain sync units, plus a caching API client with TTL, stale-while-revalidate, and invalidation keyed to the mutations that would make an entry wrong.
-- Mercure SSE realtime through a connection manager, and FCM + Huawei HMS push behind one `PushTransport` interface, so app code never branches on vendor.
+## Projects
 
-</details>
+### EasyApply — multi-tenant commerce and services platform
+**Apr 2024 – Present · Live**  
+15 storefronts, REST API, 14 Flutter apps · Sole architect · [GitHub](https://github.com/ReggieTe/easyapply-release)  
+**Stack:** PHP 8 / Symfony 7, MariaDB, Redis, Twig, JavaScript, multiple payment gateways, PDF invoicing
 
-<details>
-<summary><b>Adobe Commerce / Magento 2</b></summary>
+- The full money path, owned end to end. Cart and checkout across several payment providers, a wallet ledger, commission splits, held funds released to the merchant on fulfilment, and refunds that never silently drop.
+- Merchant detail that makes commerce usable. Per-merchant payment methods and credentials with a fallback chain, VAT-inclusive pricing as a merchant setting, tax invoices at any order stage, and daily settlement statements.
+- Multi-tenant at application and infrastructure level. Many merchant tenants and 15 storefront hosts on a shared, isolated hosting tier, with queue workers and realtime updates behind them.
 
-- Custom modules across enterprise B2C storefronts — catalogue, checkout and admin-side behaviour — worked from functional specifications and architectural constraints.
-- Customised through the platform's extension points: plugins and interceptors, observers, DI preferences, service contracts. Upgrades stay possible; nothing lands as a core edit.
-- Multi-store and multi-website configuration with the scope-aware config, attribute and content differences that come with it.
-- Performance as a *measured* change: Redis for session and cache backends, Varnish as full-page cache, indexer and cron hygiene, query and index work — profile, fix, re-measure.
-- Bespoke ERP/CRM connectors where no supported extension existed; payment and shipping integrations designed for the failure case first.
+### FAKA iAction — QR-to-action payments platform for creators
+**Oct 2026 – Present · Pre-pilot**  
+Contract-first Symfony platform with Paystack checkout, a ledger and automatic refunds · [GitHub](https://github.com/Faka-iAction)
 
-</details>
+## Technical Skills
 
-<details>
-<summary><b>Security engineering</b></summary>
+- **Adobe Commerce Cloud:** Cloud Pro (Integration / Staging / Production), ECE-Tools, Fastly CDN and purge by tag, New Relic APM, go-live checklists
+- **DXP integration:** AEM as content owner (Content Fragments / GraphQL, cache invalidation), CDP / Target / AJO for behaviour, Salesforce / CRM for the customer, SAP / ERP for price, stock and finance. One writer, many readers
+- **Adobe Commerce / Magento 2:** custom modules, EAV, plugins and observers, service contracts, declarative schema, admin grids, indexers, cron and queues, multi-store, Knockout.js, upgrade-safe customisation
+- **AWS custom deployments (SQLI, WooCommerce):** EC2, ALB, VPC, RDS, S3, CloudFront, IAM, CloudWatch; CI/CD via GitHub Actions, rolling deploys, backups and rollback; used for self-hosted commerce and integration middleware
+- **Commerce platforms:** Adobe Commerce / Magento 2 (primary), WooCommerce, PrestaShop, Shopify
+- **Integrations:** REST and GraphQL APIs, ERP / CRM connectors, payment gateways, signed webhooks, idempotency, reconciliation
+- **Languages & tools:** PHP 8, SQL, JavaScript, Python, Dart; Symfony, Laravel, Flutter; MySQL / MariaDB, Redis, Varnish, Elasticsearch / OpenSearch; Docker, Linux, Nginx, Git, Postman, Blackfire, Cloudflare; working knowledge: Node.js, TypeScript, React, Spring Boot, .NET
+- **Delivery & AI-first engineering:** code review as a quality gate, PHPUnit, SOLID, PSR, OWASP Top 10, Agile / Scrum, mentoring; Claude Code and Cursor, multi-agent pipelines with an adversarial review gate, Anthropic and Gemini APIs
 
-- Global **Content Security Policy with per-request nonces** enforced in one event subscriber, so an injected inline script doesn't execute regardless of which template rendered it.
-- Outbound webhooks signed with HMAC-SHA256 over `timestamp.body` under a bounded replay window; inbound verified in constant time.
-- Refused to give a self-hosted automation engine database credentials — everything it may ask the app to do is an explicit, reviewable capability class behind one interface, so it can't bypass validation or domain listeners.
-- User-selectable 2FA (TOTP plus a custom email/SMS one-time-code provider) and express passwordless sign-in for the customer-facing ordering flow.
-- Certificate pinning on the mobile HTTP client, with the auth token kept out of headers and off disk in plain form.
-- OWASP Top 10 hardening on a production PHP platform, with zero post-deployment security incidents.
+## Education
 
-</details>
+**BSc Honours in Information Technology, Software Engineering**  
+Chinhoyi University of Technology, Zimbabwe
 
-<details>
-<summary><b>Reliability, observability and graceful degradation</b></summary>
-
-- Pluggable health-check framework — 31 checks over 6 tiers — as both a CLI command and an admin dashboard, where adding a dependency means adding one check class.
-- Dependency failure made survivable: object storage degrades to local disk behind a **circuit breaker** and reconciles afterwards, instead of turning a suspended bucket into a login outage.
-- A single-source spend brake for metered external APIs: kill switch, per-operation daily caps derived from a monthly ceiling, per-IP limits — splitting the "may we call?" read from the "record the spend" write so cache hits never consume budget.
-- Exception triage with back-pressure: reports deduplicated by fingerprint, stamped with the release SHA, mapped to the ticket already open for that fingerprint — one outage is one ticket, not thousands of events.
-
-</details>
-
-<details>
-<summary><b>Data & Python</b></summary>
-
-- 530+ entities of hand-owned schema, including hand-written migrations where the generator couldn't be trusted against a drifted database, and collation-aware foreign keys after mismatched collations made constraints fail.
-- Cut page load times by up to **35%** on a large citizen-facing platform through query optimisation, indexing and server-side caching.
-- A Python ETL ingesting public government sanctions publications, normalising them into FollowTheMoney entities with alias enrichment and emitting a versioned manifest that triggers a reindex — replacing a per-call commercial API with an owned, auditable instance behind Elasticsearch.
-- Screening **fails closed**: an unavailable check is never recorded as a clean result.
-
-</details>
-
-<details>
-<summary><b>Front end</b></summary>
-
-- A shared themed front-end system across 15 branded storefronts — one set of partials, one theme layer keyed per brand — so a design change lands everywhere at once.
-- A full customer-facing ordering interface (menu browsing, cart, checkout, reservations, reviews, order tracking) in Twig and JavaScript, mirrored feature-for-feature by a Flutter client against the same API.
-- Real Core Web Vitals damage measured and fixed: an unsized lazy hero image causing a **0.97 CLS**, render-blocking fonts and icons moved to async loading, and an auto-generated icon subset instead of a full icon font.
-- ACE-certified on the Adobe Commerce front-end track — theme and layout customisation, LESS/CSS, Hyvä.
-
-</details>
-
-<details>
-<summary><b>LLM features in production — with the guard rails</b></summary>
-
-- AI shipped into revenue-bearing paths rather than prototypes: per-recipient outbound personalisation, content moderation for toxicity/fraud/PII exposure, and PDF-to-domain-object extraction — every one pinned to a JSON schema so nothing downstream parses free text.
-- Failure behaviour designed deliberately: a refusal degrades to a hand-authored template, a transport error marks the record for retry, moderation thresholds may escalate a verdict but never soften one, and extracted structure is validated in typed code before anything persists.
-- Scraped web content treated as attacker-controlled and model output sanitised before reaching an HTML sink, closing the prompt-injection-to-markup path.
-- AI-assisted development in daily delivery — with human review as the final gate on everything merged.
-
-</details>
-
----
-
-## 🛠️ Tech
-
-**Languages** &nbsp;`PHP 8.x` `Python` `Dart` `JavaScript` `SQL` `HTML5` `CSS3/LESS` `XML`
-
-**Frameworks** &nbsp;`Symfony 7` `Doctrine ORM` `Twig` `Laravel` `Flutter` `Vue.js` `Magento 2 / Adobe Commerce`
-
-**Architecture** &nbsp;domain-driven service design · DI and auto-tagged extension points · Symfony Messenger queues · cron and worker fleets · REST & GraphQL API design · Mercure realtime · HMAC-signed webhooks with replay protection · circuit breakers and graceful degradation
-
-**Data** &nbsp;`MySQL / MariaDB` `SQLite` `Redis` `Varnish` `Elasticsearch / OpenSearch` — schema design, query optimisation, indexing, hand-written migrations, ETL, entity resolution
-
-**Mobile** &nbsp;Android (Gradle flavours, manifest merging, foreground services, permissions) · iOS (Xcode, App Store Connect, TestFlight) · Huawei HMS / AppGallery · Provider state management · offline-first sync · deep linking and notification routing · i18n across 29 locales
-
-**Cloud & DevOps** &nbsp;`Docker` `GitHub Actions` `Fastlane` `Nginx` `Cloudflare` `AWS (EC2, S3, CodePipeline)` `GCP (Vertex AI, Storage, Maps, Firebase)` · self-managed Linux VPS · CI/CD · observability and health-check frameworks
-
-**Security** &nbsp;OWASP Top 10 · CSP with nonces · CSRF/XSS/SQLi defence · 2FA · KYC/AML integration · certificate pinning · least-privilege capability design · threat modelling
-
-**AI & automation** &nbsp;Anthropic Messages API (schema-constrained output, document blocks, Batch API) · Google Gemini on Vertex AI · multi-agent orchestration over MCP · self-hosted n8n · Claude Code and Cursor
-
----
-
-## 🎓 Certifications
-
-**7× Adobe Certified** — three at Expert level (ACE)
-
-| Certification | Level | Date |
-|---|---|---|
-| Adobe Commerce Developer | **ACE** | Aug 2025 (exp. 2027) |
-| Adobe Commerce Business Practitioner | **ACE** | Jul 2025 |
-| Adobe Commerce Front-End Developer | **ACE** | Jun 2025 |
-| Adobe Commerce Developer | Professional | Jul 2024 |
-| Adobe Commerce Business Practitioner | Professional | May 2024 |
-| Adobe Commerce Front-End Developer | Professional | Apr 2024 |
-| Professional Developer Adobe Commerce (AD0-E717) · SwiftOtter | — | Aug 2024 |
-
-**BSc Honours in Information Technology, Software Engineering** — Chinhoyi University of Technology, Zimbabwe
 
 ---
 
@@ -203,7 +123,5 @@ Every app has a sibling build in the AppGallery pipeline; the remaining store li
 ---
 
 ## 📬 Get in touch
-
-Open to senior backend, full stack, mobile and platform roles — remote, or relocation with sponsorship.
 
 📧 **tembachakoregis@gmail.com** · 🌐 [rtembachako.com](https://rtembachako.com) · 💼 [LinkedIn](https://linkedin.com/in/registembachako)
