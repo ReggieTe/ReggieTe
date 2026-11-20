@@ -17,52 +17,13 @@ Adobe Commerce Cloud Technical Lead with a DXP integration focus and 9+ years in
 My strength is owning boundaries across the DXP: Commerce owns transactional truth (catalogue, price, stock, order), AEM owns content, CRM/IAM owns the customer, a CDP owns behaviour and SAP/ERP owns financial truth. I design the integrations between them (APIs, signed webhooks, events, retry and reconciliation) so there are never two truths. Platform depth: Adobe Commerce Cloud plus custom deployments on AWS. I also build and run my own multi-tenant commerce platform end to end, covering checkout, payments, wallet ledger, VAT, refunds and settlement, and I work AI-first with human review as the final gate.
 
 
-## Adobe commerce handbook
-```
-├── README.md                  ← you are here 
-adobe/
-├── README.md                 
-├── migration/
-│   ├── README.md              Which migration handbook to use
-│   ├── upscaling/             Existing platforms → Adobe DXP        
-│   └── downscaling/           Adobe DXP → WooCommerce / PrestaShop /
-│                              Shopify / custom platform            
-├── development/               Building and changing solutions on Adobe DXP 
-└── support/                   Running and supporting Adobe DXP            
-```
+## Handbooks
 
-### 1. Migration
+Consultant-led Adobe DXP handbooks for migration, development and operations, built around seven-phase lifecycles, approval gates and practical delivery resources.
 
-Migration is the first and most mature part of the library. It has two directions, each a complete seven-phase handbook.
-
-#### 1.1 Upscaling: existing platforms → Adobe DXP
-
-[`migration/upscaling/`](migration/upscaling/README.md) — *Enterprise Adobe DXP Migration Handbook v1.1*
-
-For organisations moving from custom portals, WooCommerce, PrestaShop, Shopify, existing Adobe Commerce or legacy CMS platforms into Adobe DXP.
-
-
-#### 1.2 Downscaling: Adobe DXP → WooCommerce, PrestaShop, Shopify or a custom platform
-
-[`migration/downscaling/`](migration/downscaling/README.md) — *Adobe DXP Downscale Playbook v1.0*
-
-For organisations leaving Adobe DXP for a simpler, lower-cost or better-fitting platform.
-
-Start with [`migration/README.md`](migration/README.md) if you are unsure which direction applies.
-
----
-
-### 2. Development
-
-[`development/`](development/README.md) — *Enterprise Adobe DXP Development Handbook v1.0*
-
-An engineering lifecycle for designing, building, testing, releasing and handing over custom solutions on AEM, Adobe Commerce, AEP and the Experience Cloud modules. Built the same way as the migration handbooks.
-
----
-
-### 3. Support
-
-[`support/`](support/README.md) — *Enterprise Adobe DXP Support and Operations Handbook v1.0*
+- **Migration** — Guides organisations moving to Adobe DXP from existing platforms, or moving from Adobe DXP to WooCommerce, PrestaShop, Shopify or a custom platform. [View the migration handbooks](https://github.com/ReggieTe/adobe-commerce/tree/main/migration)
+- **Development** — Covers the engineering lifecycle for designing, building, testing, releasing and handing over solutions across AEM, Adobe Commerce, AEP and related Experience Cloud products. [View the development handbook](https://github.com/ReggieTe/adobe-commerce/tree/main/development)
+- **Support and Operations** — Covers support service design and transition, live operations, continual improvement, platform lifecycle management and service handover. [View the support handbook](https://github.com/ReggieTe/adobe-commerce/tree/main/support)
 
 
 ## Certifications
